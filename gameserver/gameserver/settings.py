@@ -25,7 +25,7 @@ SECRET_KEY = '_$a+=wljbej5x%c+0tkxbhr(d_@rn7c_dl5n!&xd&u5vev-v0-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [bacon.davechamberlain.net]
+ALLOWED_HOSTS = ['bacon.davechamberlain.net']
 
 
 # Application definition
