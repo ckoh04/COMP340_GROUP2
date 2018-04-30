@@ -21,6 +21,6 @@ urlpatterns = [
     path('user/', uv.HomePageView().create_or_retrieve),
     path('user/<str:uname>/', uv.HomePageView().create_or_retrieve),
     path('score/', sv.HomePageView().set_or_retrieve),
-    path('score/<str:uid>/', sv.HomePageView().set_or_retrieve),
-    path('score/<str:uid>/<str:uscore>/', sv.HomePageView().set_or_retrieve),
+    path('score/<str:uname>/', sv.HomePageView().set_or_retrieve),
+    path('score/<str:uname>/<str:uscore>/', sv.HomePageView().set_or_retrieve),
 ]
